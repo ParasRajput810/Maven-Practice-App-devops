@@ -15,6 +15,20 @@
         <junit-jupiter-params.version>5.9.2</junit-jupiter-params.version>
     </properties>
 
+    <repositories>
+        <!-- Existing repositories, if any -->
+        <repository>
+            <id>newassignmentfeed</id>
+            <url>https://pkgs.dev.azure.com/prwork8101999/_packaging/newassignmentfeed/maven/v1</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
